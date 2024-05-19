@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.logo {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* To maintain aspect ratio */
+    margin-right: 10px; /* Add margin to separate from other navbar elements */
+}
+
+.fixed-image-size {
+    width: 100%; /* Adjust the width as needed */
+    height: auto; /* To maintain aspect ratio */
+}
+
+.navbar-nav {
+    align-items: center; /* Align navbar items vertically */
+}
+
+/* Ensure proper alignment of card images */
+.card {
+    height: 100%;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 200px; /* Adjust height as needed */
+}
